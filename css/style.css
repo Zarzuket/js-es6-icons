@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+h2{
+    color: rgb(41, 177, 221);
+}
+
+.nav_top{
+    height: 40px;
+}
+
+.nav_bot{
+    height: 40px;
+    background-color:  rgb(41, 177, 221);
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    line-height: 40px;
+}
+
+main{
+    padding: 20px;
+    height: calc(100% - 80px);
+    background-color: lightgrey;   
+    overflow-y: auto; 
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon{
+    padding: 20px;
+    width: calc(100% / 5 - 20px);
+    background-color: white;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+}
